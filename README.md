@@ -1,10 +1,10 @@
 ![](https://gametradersusa.com/wp-content/uploads/2016/08/pokedex1-890x606.gif)
-demoDay
+Pokedex App
 =======================
 
 **Live Demo**: Coming Soon!
 
-#What is the Pokedex app?
+# What is the Pokedex app?
 
 
 Table of Contents
