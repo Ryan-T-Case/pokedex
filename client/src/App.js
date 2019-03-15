@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import SignUp from "./pages/SignUp/SignUp";
 import SignIn from "./pages/SignIn/SignIn";
+import PokedexMain from "./pages/PokedexMain/PokedexMain";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <Route exact path="/" component={Home}></Route>
             <Route exact path="/signup" component={SignUp}></Route>
             <Route exact path="/signin" component={SignIn}></Route>
+            <Route exact path="/pokedex-main-dashboard" component={PokedexMain}></Route>
           </Switch>
         </Router>
       </div>
