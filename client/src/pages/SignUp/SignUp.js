@@ -8,7 +8,7 @@ class SignUp extends Component {
             username: "",
             password: "",
             gender: "",
-            starter: ""
+            starter: "",
         }
     }
 
@@ -38,14 +38,14 @@ class SignUp extends Component {
             this.setState(prevState => ({
                 signUpFormInput: {
                     ...prevState.signUpFormInput,
-                    gender: inputValue
+                    gender: inputValue,
                 }
             }));
         } else if (inputName === "starter") {
             this.setState(prevState => ({
                 signUpFormInput: {
                     ...prevState.signUpFormInput,
-                    starter: inputValue
+                    starter: inputValue,
                 }
             }));
         }
@@ -72,7 +72,7 @@ class SignUp extends Component {
                 username: "",
                 password: "",
                 gender: "",
-                starter: ""
+                starter: "",
             }
         })
     }
@@ -81,7 +81,7 @@ class SignUp extends Component {
         return(
             <div className="SignUp">
                 <h1>This is the Sign Up Page.</h1>
-                <SignUpForm handleSignUpFormInputChange={this.handleSignUpFormInputChange} handleSignUpFormSubmit={this.handleSignUpFormSubmit} usernameInput={this.state.signUpFormInput.username} passwordInput={this.state.signUpFormInput.password} genderInput={this.state.signUpFormInput.gender} starterInput={this.state.signUpFormInput.starter}/>
+                <SignUpForm handleSignUpFormInputChange={this.handleSignUpFormInputChange} handleSignUpFormSubmit={this.handleSignUpFormSubmit} usernameInput={this.state.signUpFormInput.username} passwordInput={this.state.signUpFormInput.password} genderInput={this.state.signUpFormInput.gender} starterInput={this.state.signUpFormInput.starter} />
             </div>
         )
     }
