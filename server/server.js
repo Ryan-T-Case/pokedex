@@ -44,7 +44,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 //Allow server to handle routes
-//app.use(routes);
+app.use(routes);
 
 //Error Handler
 app.use(function(err, req, res, next) {
